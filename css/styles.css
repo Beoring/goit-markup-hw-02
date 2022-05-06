@@ -139,6 +139,10 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
 }
+.current-btn {
+  background-color: var(--bg-accent-color);
+  color: var(--text-light-color);
+}
 .examples-button:hover,
 .examples-button:focus {
   background-color: var(--bg-accent-color);
@@ -177,4 +181,8 @@ body {
 }
 .footer-link {
   color: var(--text-light-transparent-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--text-accent-color);
 }
